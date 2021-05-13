@@ -45,12 +45,20 @@ export default function Post() {
 						{data.posts.title}
 					</Typography>
 					<Typography
-						variant="h5"
+						variant="p"
 						align="center"
 						color="textSecondary"
 						paragraph
 					>
 						{data.posts.excerpt}
+					</Typography>
+					<Typography
+						variant="h5"
+						align="center"
+						color="textPrimary"
+						paragraph
+					>
+						{data.posts.content}
 					</Typography>
 				</Container>
 			</div>

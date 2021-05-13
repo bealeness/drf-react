@@ -48,6 +48,15 @@ function Header() {
 						</Link>
 					</Typography>
 					<nav>
+					<Link
+							color="textPrimary"
+							href="#"
+							className={classes.link}
+							component={NavLink}
+							to="/admin"
+						>
+							Admin
+						</Link>
 						<Link
 							color="textPrimary"
 							href="#"

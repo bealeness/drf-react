@@ -72,10 +72,10 @@ export default function Create() {
 			excerpt: formData.excerpt,
 			content: formData.content,
 		});
-		history.push({
+		history.push({                        //history is react version of redirect
 			pathname: '/admin/',
 		});
-		window.location.reload();
+		window.location.reload();             //forced page refresh
 	};
 
 	const classes = useStyles();
